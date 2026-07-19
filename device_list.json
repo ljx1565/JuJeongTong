@@ -1,0 +1,23 @@
+[
+  {
+    "ip": "172.16.14.11",
+    "hostname": "rocky_host",
+    "role": "client",
+    "type": "unix",
+    "conn_info": { "port": 22, "user": "root", "password": "asd123!@" }
+  },
+  {
+    "ip": "172.16.14.21",
+    "hostname": "ubuntu_host",
+    "role": "client",
+    "type": "unix",
+    "conn_info": { "port": 22, "user": "root", "password": "asd123!@" }
+  },
+  {
+    "ip": "172.16.14.19",
+    "hostname": "rocky_db",
+    "role": "db",
+    "type": "unix",
+    "conn_info": { "port": 22, "user": "root", "password": "asd123!@" }
+  }
+]
