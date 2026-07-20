@@ -9,9 +9,18 @@ team_works 폴더 안에 다음 형식으로 .py 파일을 넣어주세요.
 블루(수빈):
 web_service.py
 
+퍼플(재학):
+unix_server.py
+windows_server.py
+PC.py
 
-
-퍼플(재학)
 퍼플(은수)
+network_device.py
+
 레드(왕현)
+web_application.py
+DBMS.py
+
 레드(병진)
+web_application.py
+virtual_machine.py
