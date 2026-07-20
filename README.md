@@ -6,8 +6,8 @@ https://docs.google.com/spreadsheets/d/1KjqpkVgDTIY1epeNiaTrGDJgQtoLUk2RhiecGlG1
 
 team_works 폴더 안에 다음 형식으로 .py 파일을 넣어주세요.
 
-블루(수빈):
-web_service.py
+블루(수빈):\n
+web_service.py\n
 
 퍼플(재학):
 unix_server.py
