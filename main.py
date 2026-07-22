@@ -5,7 +5,7 @@ from sql_manager import SqlManager
 from team_works.unix_server import UnixServer
 #from team_works.windows_server import WindowsServer
 #from team_works.web_service import Webservice
-#from team_works.network_device import NetworkDevice
+from team_works.network_device import NetworkDevice
 #from team_works.PC import PC
 #from team_works.DBMS import DBMS
 #from team_works.web_application import WebApplication
