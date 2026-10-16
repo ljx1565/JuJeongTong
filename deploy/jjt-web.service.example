@@ -1,0 +1,21 @@
+[Unit]
+Description=JJT Compliance Center Web
+After=network-online.target mariadb.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=jjt
+Group=jjt
+WorkingDirectory=/opt/jjt
+ExecStart=/opt/jjt/.venv/bin/gunicorn --bind 127.0.0.1:5080 --workers 1 --threads 4 --timeout 60 --access-logfile - app:app
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadOnlyPaths=/opt/jjt
+
+[Install]
+WantedBy=multi-user.target

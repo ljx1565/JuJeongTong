@@ -1,0 +1,13 @@
+[
+  {
+    "ip": "192.0.2.10",
+    "hostname": "rocky-example",
+    "role": "server",
+    "checks": ["unix"],
+    "conn_info": {
+      "port": 22,
+      "user": "jjt-checker",
+      "password": "change-me"
+    }
+  }
+]

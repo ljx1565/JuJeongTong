@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>주정통 Compliance Center</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <a class="top-brand" href="/"><span>J</span><div><small>COMPLIANCE CENTER</small><h1>주요정보통신기반시설 점검</h1></div></a>
+      <nav class="top-nav"><button data-view="run" class="active"><span>점검 실행</span></button><button data-view="targets"><span>접속장치 관리</span></button><button data-view="guide"><span>검사항목 안내</span></button><button data-view="results"><span>점검 결과</span></button></nav>
+      <div class="header-status"><span class="db-status"><i id="db-dot"></i><b id="db-state">DB 확인 중</b></span><time id="clock">--:--:-- KST</time><button id="refresh" title="새로고침">↻</button></div>
+    </header>
+    <main id="content"><section class="loading"><i></i>점검 센터를 준비하고 있습니다.</section></main>
+  </div>
+  <div id="toast" role="status"></div>
+  <script type="module" src="/static/app.js"></script>
+</body>
+</html>

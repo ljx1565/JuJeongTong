@@ -1,0 +1,2 @@
+u_18이 u-16 출력하던거 고침
+network_device에서 send_command를 execute_command로 고침
